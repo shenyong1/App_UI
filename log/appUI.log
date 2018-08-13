@@ -1,0 +1,251 @@
+[2018-07-29 11:39:03,837] [DEBUG] [appController.py:kill_server:46] 执行[KiLL SERVER]操作:成功: 已终止 PID 10736 (属于 PID 20676 子进程)的进程。
+[2018-07-29 11:39:03,912] [DEBUG] [appController.py:kill_server:47] 重启ADB服务！
+[2018-07-29 11:39:03,912] [DEBUG] [appController.py:start_server:66] 启动服务的命令：appium -a 127.0.0.1 -p 4723 -U test_hehe -g E:\App_UI\log\雷电模拟器.log
+[2018-07-29 11:39:04,004] [DEBUG] [appController.py:test_sever:80] 端口：【4723】 启动失败  5秒后重试
+[2018-07-29 11:39:09,155] [DEBUG] [appController.py:test_sever:77] 端口：【4723】 启动成功
+[2018-07-29 11:39:09,172] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session {"desiredCapabilities": {"unicodeKeyboard": true, "deviceName": "test_hehe", "port": 4723, "platformName": "Android", "resetKeyboard": true, "ip": "127.0.0.1", "appActivity": "com.tencent.mobileqq.activity.SplashActivity", "appPackage": "com.tencent.mobileqq", "platformVersion": "5.1.1", "noReset": false, "udid": "127.0.0.1:5555", "name": "\u96f7\u7535\u6a21\u62df\u5668"}, "capabilities": {"alwaysMatch": {"platformName": "Android"}, "firstMatch": [{}]}}
+[2018-07-29 11:39:20,558] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 11:40:14,088] [DEBUG] [appController.py:kill_server:46] 执行[KiLL SERVER]操作:成功: 已终止 PID 16404 (属于 PID 17396 子进程)的进程。
+[2018-07-29 11:40:14,176] [DEBUG] [appController.py:kill_server:47] 重启ADB服务！
+[2018-07-29 11:40:14,176] [DEBUG] [appController.py:start_server:66] 启动服务的命令：appium -a 127.0.0.1 -p 4723 -U emulator-5554 -g E:\App_UI\log\雷电模拟器.log
+[2018-07-29 11:40:14,287] [DEBUG] [appController.py:test_sever:80] 端口：【4723】 启动失败  5秒后重试
+[2018-07-29 11:40:19,392] [DEBUG] [appController.py:test_sever:77] 端口：【4723】 启动成功
+[2018-07-29 11:40:19,398] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"alwaysMatch": {"platformName": "Android"}, "firstMatch": [{}]}, "desiredCapabilities": {"appPackage": "com.tencent.mobileqq", "name": "\u96f7\u7535\u6a21\u62df\u5668", "appActivity": "com.tencent.mobileqq.activity.SplashActivity", "platformName": "Android", "ip": "127.0.0.1", "noReset": false, "udid": "emulator-5554", "resetKeyboard": true, "unicodeKeyboard": true, "port": 4723, "platformVersion": "5.1.1", "deviceName": "emulator-5554"}}
+[2018-07-29 11:40:28,461] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 11:40:28,472] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/aab43013-5728-4041-bc14-b173994b0b60/element {"using": "accessibility id", "value": "\u5e10\u6237\u53ca\u8bbe\u7f6e", "sessionId": "aab43013-5728-4041-bc14-b173994b0b60"}
+[2018-07-29 11:40:29,597] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 11:40:30,598] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/aab43013-5728-4041-bc14-b173994b0b60/element {"using": "accessibility id", "value": "\u5e10\u6237\u53ca\u8bbe\u7f6e", "sessionId": "aab43013-5728-4041-bc14-b173994b0b60"}
+[2018-07-29 11:40:31,462] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 11:40:32,463] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/aab43013-5728-4041-bc14-b173994b0b60/element {"using": "accessibility id", "value": "\u5e10\u6237\u53ca\u8bbe\u7f6e", "sessionId": "aab43013-5728-4041-bc14-b173994b0b60"}
+[2018-07-29 11:40:32,486] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 11:40:33,487] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/aab43013-5728-4041-bc14-b173994b0b60/element {"using": "accessibility id", "value": "\u5e10\u6237\u53ca\u8bbe\u7f6e", "sessionId": "aab43013-5728-4041-bc14-b173994b0b60"}
+[2018-07-29 11:40:33,526] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 11:40:34,526] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/aab43013-5728-4041-bc14-b173994b0b60/element {"using": "accessibility id", "value": "\u5e10\u6237\u53ca\u8bbe\u7f6e", "sessionId": "aab43013-5728-4041-bc14-b173994b0b60"}
+[2018-07-29 11:40:34,571] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 11:40:35,572] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/aab43013-5728-4041-bc14-b173994b0b60/element {"using": "accessibility id", "value": "\u5e10\u6237\u53ca\u8bbe\u7f6e", "sessionId": "aab43013-5728-4041-bc14-b173994b0b60"}
+[2018-07-29 11:40:35,606] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 11:40:36,676] [DEBUG] [HTMLTestAppRunner.py:_generate_report:751] []
+[2018-07-29 11:42:22,076] [DEBUG] [appController.py:kill_server:46] 执行[KiLL SERVER]操作:成功: 已终止 PID 19548 (属于 PID 14864 子进程)的进程。
+[2018-07-29 11:42:22,171] [DEBUG] [appController.py:kill_server:47] 重启ADB服务！
+[2018-07-29 11:42:22,171] [DEBUG] [appController.py:start_server:66] 启动服务的命令：appium -a 127.0.0.1 -p 4723 -U emulator-5554 -g E:\App_UI\log\雷电模拟器.log
+[2018-07-29 11:42:22,288] [DEBUG] [appController.py:test_sever:80] 端口：【4723】 启动失败  5秒后重试
+[2018-07-29 11:42:27,430] [DEBUG] [appController.py:test_sever:77] 端口：【4723】 启动成功
+[2018-07-29 11:42:27,458] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session {"desiredCapabilities": {"resetKeyboard": true, "port": 4723, "appPackage": "com.tencent.mobileqq", "noReset": false, "platformVersion": "5.1.1", "name": "\u96f7\u7535\u6a21\u62df\u5668", "appActivity": "com.tencent.mobileqq.activity.SplashActivity", "udid": "emulator-5554", "unicodeKeyboard": true, "platformName": "Android", "ip": "127.0.0.1", "deviceName": "emulator-5554"}, "capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}}
+[2018-07-29 11:42:35,494] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 11:42:35,520] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/59ea9979-d044-4e11-9bf1-1cee46f86341/element {"value": "\u8bf7\u8f93\u5165QQ\u53f7\u7801\u6216\u624b\u673a\u6216\u90ae\u7bb1", "sessionId": "59ea9979-d044-4e11-9bf1-1cee46f86341", "using": "accessibility id"}
+[2018-07-29 11:42:35,578] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 11:42:36,578] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/59ea9979-d044-4e11-9bf1-1cee46f86341/element {"value": "\u8bf7\u8f93\u5165QQ\u53f7\u7801\u6216\u624b\u673a\u6216\u90ae\u7bb1", "sessionId": "59ea9979-d044-4e11-9bf1-1cee46f86341", "using": "accessibility id"}
+[2018-07-29 11:42:37,609] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 11:42:37,609] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/59ea9979-d044-4e11-9bf1-1cee46f86341/element {"value": "\u8bf7\u8f93\u5165QQ\u53f7\u7801\u6216\u624b\u673a\u6216\u90ae\u7bb1", "sessionId": "59ea9979-d044-4e11-9bf1-1cee46f86341", "using": "accessibility id"}
+[2018-07-29 11:42:38,207] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 11:42:38,207] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/59ea9979-d044-4e11-9bf1-1cee46f86341/element {"value": "\u8bf7\u8f93\u5165QQ\u53f7\u7801\u6216\u624b\u673a\u6216\u90ae\u7bb1", "sessionId": "59ea9979-d044-4e11-9bf1-1cee46f86341", "using": "accessibility id"}
+[2018-07-29 11:42:38,229] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 11:42:38,230] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/59ea9979-d044-4e11-9bf1-1cee46f86341/element/3/value {"id": "3", "text": "3408467505", "value": ["3", "4", "0", "8", "4", "6", "7", "5", "0", "5"], "sessionId": "59ea9979-d044-4e11-9bf1-1cee46f86341"}
+[2018-07-29 11:42:44,358] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 11:42:44,359] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/59ea9979-d044-4e11-9bf1-1cee46f86341/element {"value": "\u5bc6\u7801 \u5b89\u5168", "sessionId": "59ea9979-d044-4e11-9bf1-1cee46f86341", "using": "accessibility id"}
+[2018-07-29 11:42:44,895] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 11:42:44,896] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/59ea9979-d044-4e11-9bf1-1cee46f86341/element {"value": "\u5bc6\u7801 \u5b89\u5168", "sessionId": "59ea9979-d044-4e11-9bf1-1cee46f86341", "using": "accessibility id"}
+[2018-07-29 11:42:44,918] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 11:42:44,919] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/59ea9979-d044-4e11-9bf1-1cee46f86341/element {"value": "\u5bc6\u7801 \u5b89\u5168", "sessionId": "59ea9979-d044-4e11-9bf1-1cee46f86341", "using": "accessibility id"}
+[2018-07-29 11:42:44,935] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 11:42:44,935] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/59ea9979-d044-4e11-9bf1-1cee46f86341/element/6/value {"id": "6", "text": "besttest123", "value": ["b", "e", "s", "t", "t", "e", "s", "t", "1", "2", "3"], "sessionId": "59ea9979-d044-4e11-9bf1-1cee46f86341"}
+[2018-07-29 11:42:49,971] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 11:42:49,971] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/59ea9979-d044-4e11-9bf1-1cee46f86341/element {"value": "new UiSelector().text(\"\u767b \u5f55\")", "sessionId": "59ea9979-d044-4e11-9bf1-1cee46f86341", "using": "-android uiautomator"}
+[2018-07-29 11:42:50,566] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 11:42:50,566] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/59ea9979-d044-4e11-9bf1-1cee46f86341/element {"value": "new UiSelector().text(\"\u767b \u5f55\")", "sessionId": "59ea9979-d044-4e11-9bf1-1cee46f86341", "using": "-android uiautomator"}
+[2018-07-29 11:42:50,655] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 11:42:50,655] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/59ea9979-d044-4e11-9bf1-1cee46f86341/element {"value": "new UiSelector().text(\"\u767b \u5f55\")", "sessionId": "59ea9979-d044-4e11-9bf1-1cee46f86341", "using": "-android uiautomator"}
+[2018-07-29 11:42:50,665] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 11:42:50,665] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/59ea9979-d044-4e11-9bf1-1cee46f86341/element/9/click {"id": "9", "sessionId": "59ea9979-d044-4e11-9bf1-1cee46f86341"}
+[2018-07-29 11:42:50,998] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 11:42:50,999] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/59ea9979-d044-4e11-9bf1-1cee46f86341/element {"value": "\u5e10\u6237\u53ca\u8bbe\u7f6e", "sessionId": "59ea9979-d044-4e11-9bf1-1cee46f86341", "using": "accessibility id"}
+[2018-07-29 11:42:57,024] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 11:42:57,024] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/59ea9979-d044-4e11-9bf1-1cee46f86341/element {"value": "\u5e10\u6237\u53ca\u8bbe\u7f6e", "sessionId": "59ea9979-d044-4e11-9bf1-1cee46f86341", "using": "accessibility id"}
+[2018-07-29 11:42:57,085] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 11:42:57,085] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/59ea9979-d044-4e11-9bf1-1cee46f86341/element {"value": "\u5e10\u6237\u53ca\u8bbe\u7f6e", "sessionId": "59ea9979-d044-4e11-9bf1-1cee46f86341", "using": "accessibility id"}
+[2018-07-29 11:42:57,944] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 11:42:57,945] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/59ea9979-d044-4e11-9bf1-1cee46f86341/element/12/click {"id": "12", "sessionId": "59ea9979-d044-4e11-9bf1-1cee46f86341"}
+[2018-07-29 11:43:04,678] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 11:43:04,678] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/59ea9979-d044-4e11-9bf1-1cee46f86341/element {"value": "\u8bbe\u7f6e", "sessionId": "59ea9979-d044-4e11-9bf1-1cee46f86341", "using": "accessibility id"}
+[2018-07-29 11:43:06,461] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 11:43:06,462] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/59ea9979-d044-4e11-9bf1-1cee46f86341/element {"value": "\u8bbe\u7f6e", "sessionId": "59ea9979-d044-4e11-9bf1-1cee46f86341", "using": "accessibility id"}
+[2018-07-29 11:43:06,506] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 11:43:06,506] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/59ea9979-d044-4e11-9bf1-1cee46f86341/element {"value": "\u8bbe\u7f6e", "sessionId": "59ea9979-d044-4e11-9bf1-1cee46f86341", "using": "accessibility id"}
+[2018-07-29 11:43:06,531] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 11:43:06,531] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/59ea9979-d044-4e11-9bf1-1cee46f86341/element/15/click {"id": "15", "sessionId": "59ea9979-d044-4e11-9bf1-1cee46f86341"}
+[2018-07-29 11:43:09,794] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 11:43:09,795] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/59ea9979-d044-4e11-9bf1-1cee46f86341/element {"value": "new UiSelector().text(\"\u5e10\u53f7\u3001\u8bbe\u5907\u5b89\u5168\")", "sessionId": "59ea9979-d044-4e11-9bf1-1cee46f86341", "using": "-android uiautomator"}
+[2018-07-29 11:43:19,477] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 11:43:19,478] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/59ea9979-d044-4e11-9bf1-1cee46f86341/element {"value": "new UiSelector().text(\"\u5e10\u53f7\u3001\u8bbe\u5907\u5b89\u5168\")", "sessionId": "59ea9979-d044-4e11-9bf1-1cee46f86341", "using": "-android uiautomator"}
+[2018-07-29 11:43:19,537] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 11:43:19,537] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/59ea9979-d044-4e11-9bf1-1cee46f86341/element {"value": "new UiSelector().text(\"\u5e10\u53f7\u3001\u8bbe\u5907\u5b89\u5168\")", "sessionId": "59ea9979-d044-4e11-9bf1-1cee46f86341", "using": "-android uiautomator"}
+[2018-07-29 11:43:21,174] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 11:43:21,174] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/59ea9979-d044-4e11-9bf1-1cee46f86341/element/18/click {"id": "18", "sessionId": "59ea9979-d044-4e11-9bf1-1cee46f86341"}
+[2018-07-29 11:43:23,142] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 11:43:23,142] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/59ea9979-d044-4e11-9bf1-1cee46f86341/element {"value": "\u624b\u52bf\u5bc6\u7801\u9501\u5b9a", "sessionId": "59ea9979-d044-4e11-9bf1-1cee46f86341", "using": "accessibility id"}
+[2018-07-29 11:43:24,603] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 11:43:24,603] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/59ea9979-d044-4e11-9bf1-1cee46f86341/element {"value": "\u624b\u52bf\u5bc6\u7801\u9501\u5b9a", "sessionId": "59ea9979-d044-4e11-9bf1-1cee46f86341", "using": "accessibility id"}
+[2018-07-29 11:43:26,816] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 11:43:26,816] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/59ea9979-d044-4e11-9bf1-1cee46f86341/element {"value": "\u624b\u52bf\u5bc6\u7801\u9501\u5b9a", "sessionId": "59ea9979-d044-4e11-9bf1-1cee46f86341", "using": "accessibility id"}
+[2018-07-29 11:43:26,860] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 11:43:26,860] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/59ea9979-d044-4e11-9bf1-1cee46f86341/element/21/click {"id": "21", "sessionId": "59ea9979-d044-4e11-9bf1-1cee46f86341"}
+[2018-07-29 11:43:30,316] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 11:43:30,317] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/59ea9979-d044-4e11-9bf1-1cee46f86341/element {"value": "new UiSelector().text(\"\u521b\u5efa\u624b\u52bf\u5bc6\u7801\")", "sessionId": "59ea9979-d044-4e11-9bf1-1cee46f86341", "using": "-android uiautomator"}
+[2018-07-29 11:43:30,499] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 11:43:30,500] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/59ea9979-d044-4e11-9bf1-1cee46f86341/element {"value": "new UiSelector().text(\"\u521b\u5efa\u624b\u52bf\u5bc6\u7801\")", "sessionId": "59ea9979-d044-4e11-9bf1-1cee46f86341", "using": "-android uiautomator"}
+[2018-07-29 11:43:30,508] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 11:43:30,508] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/59ea9979-d044-4e11-9bf1-1cee46f86341/element {"value": "new UiSelector().text(\"\u521b\u5efa\u624b\u52bf\u5bc6\u7801\")", "sessionId": "59ea9979-d044-4e11-9bf1-1cee46f86341", "using": "-android uiautomator"}
+[2018-07-29 11:43:30,573] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 11:43:30,573] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/59ea9979-d044-4e11-9bf1-1cee46f86341/element/24/click {"id": "24", "sessionId": "59ea9979-d044-4e11-9bf1-1cee46f86341"}
+[2018-07-29 11:43:31,263] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 11:43:31,263] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/59ea9979-d044-4e11-9bf1-1cee46f86341/element {"value": "android.view.View", "sessionId": "59ea9979-d044-4e11-9bf1-1cee46f86341", "using": "class name"}
+[2018-07-29 11:43:31,874] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 11:43:31,874] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/59ea9979-d044-4e11-9bf1-1cee46f86341/elements {"value": "android.view.View", "sessionId": "59ea9979-d044-4e11-9bf1-1cee46f86341", "using": "class name"}
+[2018-07-29 11:43:31,959] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 11:43:31,959] [DEBUG] [remote_connection.py:_request:480] GET http://127.0.0.1:4723/wd/hub/session/59ea9979-d044-4e11-9bf1-1cee46f86341/element/38/location {"id": "38", "sessionId": "59ea9979-d044-4e11-9bf1-1cee46f86341"}
+[2018-07-29 11:43:31,972] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 11:43:31,973] [DEBUG] [remote_connection.py:_request:480] GET http://127.0.0.1:4723/wd/hub/session/59ea9979-d044-4e11-9bf1-1cee46f86341/element/38/size {"id": "38", "sessionId": "59ea9979-d044-4e11-9bf1-1cee46f86341"}
+[2018-07-29 11:43:31,985] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 11:43:31,986] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/59ea9979-d044-4e11-9bf1-1cee46f86341/touch/perform {"sessionId": "59ea9979-d044-4e11-9bf1-1cee46f86341", "actions": [{"action": "press", "options": {"x": 252.0, "y": 743.0}}, {"action": "wait", "options": {"ms": 300}}, {"action": "moveTo", "options": {"x": 288.0, "y": 0.0}}]}
+[2018-07-29 11:43:32,349] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 11:43:32,350] [DEBUG] [HTMLTestAppRunner.py:_generate_report:751] []
+[2018-07-29 11:44:29,344] [DEBUG] [appController.py:kill_server:46] 执行[KiLL SERVER]操作:成功: 已终止 PID 21624 (属于 PID 13816 子进程)的进程。
+成功: 已终止 PID 22424 (属于 PID 13816 子进程)的进程。
+成功: 已终止 PID 13816 (属于 PID 21604 子进程)的进程。
+[2018-07-29 11:44:29,426] [DEBUG] [appController.py:kill_server:47] 重启ADB服务！
+[2018-07-29 11:44:29,426] [DEBUG] [appController.py:start_server:66] 启动服务的命令：appium -a 127.0.0.1 -p 4723 -U emulator-5554 -g E:\App_UI\log\雷电模拟器.log
+[2018-07-29 11:44:29,521] [DEBUG] [appController.py:test_sever:80] 端口：【4723】 启动失败  5秒后重试
+[2018-07-29 11:44:34,645] [DEBUG] [appController.py:test_sever:77] 端口：【4723】 启动成功
+[2018-07-29 11:44:34,672] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session {"desiredCapabilities": {"udid": "emulator-5554", "port": 4723, "appActivity": "com.tencent.mobileqq.activity.SplashActivity", "resetKeyboard": true, "name": "\u96f7\u7535\u6a21\u62df\u5668", "deviceName": "emulator-5554", "platformName": "Android", "ip": "127.0.0.1", "platformVersion": "5.1.1", "noReset": false, "unicodeKeyboard": true, "appPackage": "com.tencent.mobileqq"}, "capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}}
+[2018-07-29 11:44:43,155] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 11:44:43,176] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/d12ebf97-c7f9-4cf6-ba85-c84426eb80fe/element {"value": "\u8bf7\u8f93\u5165QQ\u53f7\u7801\u6216\u624b\u673a\u6216\u90ae\u7bb1", "sessionId": "d12ebf97-c7f9-4cf6-ba85-c84426eb80fe", "using": "accessibility id"}
+[2018-07-29 11:44:43,246] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 11:44:44,249] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/d12ebf97-c7f9-4cf6-ba85-c84426eb80fe/element {"value": "\u8bf7\u8f93\u5165QQ\u53f7\u7801\u6216\u624b\u673a\u6216\u90ae\u7bb1", "sessionId": "d12ebf97-c7f9-4cf6-ba85-c84426eb80fe", "using": "accessibility id"}
+[2018-07-29 11:44:46,184] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 11:44:47,184] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/d12ebf97-c7f9-4cf6-ba85-c84426eb80fe/element {"value": "\u8bf7\u8f93\u5165QQ\u53f7\u7801\u6216\u624b\u673a\u6216\u90ae\u7bb1", "sessionId": "d12ebf97-c7f9-4cf6-ba85-c84426eb80fe", "using": "accessibility id"}
+[2018-07-29 11:44:47,213] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 11:44:48,215] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/d12ebf97-c7f9-4cf6-ba85-c84426eb80fe/element {"value": "\u8bf7\u8f93\u5165QQ\u53f7\u7801\u6216\u624b\u673a\u6216\u90ae\u7bb1", "sessionId": "d12ebf97-c7f9-4cf6-ba85-c84426eb80fe", "using": "accessibility id"}
+[2018-07-29 11:44:48,691] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 11:44:49,693] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/d12ebf97-c7f9-4cf6-ba85-c84426eb80fe/element {"value": "\u8bf7\u8f93\u5165QQ\u53f7\u7801\u6216\u624b\u673a\u6216\u90ae\u7bb1", "sessionId": "d12ebf97-c7f9-4cf6-ba85-c84426eb80fe", "using": "accessibility id"}
+[2018-07-29 11:44:49,857] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 11:44:50,857] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/d12ebf97-c7f9-4cf6-ba85-c84426eb80fe/element {"value": "\u8bf7\u8f93\u5165QQ\u53f7\u7801\u6216\u624b\u673a\u6216\u90ae\u7bb1", "sessionId": "d12ebf97-c7f9-4cf6-ba85-c84426eb80fe", "using": "accessibility id"}
+[2018-07-29 11:44:53,319] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 11:44:54,322] [DEBUG] [HTMLTestAppRunner.py:_generate_report:751] []
+[2018-07-29 11:45:44,612] [DEBUG] [appController.py:kill_server:46] 执行[KiLL SERVER]操作:成功: 已终止 PID 21512 (属于 PID 14524 子进程)的进程。
+成功: 已终止 PID 11640 (属于 PID 14524 子进程)的进程。
+成功: 已终止 PID 14524 (属于 PID 1668 子进程)的进程。
+[2018-07-29 11:45:44,699] [DEBUG] [appController.py:kill_server:47] 重启ADB服务！
+[2018-07-29 11:45:44,700] [DEBUG] [appController.py:start_server:66] 启动服务的命令：appium -a 127.0.0.1 -p 4723 -U emulator-5554 -g E:\App_UI\log\雷电模拟器.log
+[2018-07-29 11:45:44,830] [DEBUG] [appController.py:test_sever:80] 端口：【4723】 启动失败  5秒后重试
+[2018-07-29 11:45:49,905] [DEBUG] [appController.py:test_sever:77] 端口：【4723】 启动成功
+[2018-07-29 11:45:49,910] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"deviceName": "emulator-5554", "name": "\u96f7\u7535\u6a21\u62df\u5668", "appPackage": "com.tencent.mobileqq", "unicodeKeyboard": true, "resetKeyboard": true, "port": 4723, "platformName": "Android", "appActivity": "com.tencent.mobileqq.activity.SplashActivity", "ip": "127.0.0.1", "platformVersion": "5.1.1", "udid": "emulator-5554", "noReset": false}}
+[2018-07-29 11:45:58,466] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 11:45:58,490] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/10e74dfb-cdaf-4f4b-b374-43657e38b827/element {"sessionId": "10e74dfb-cdaf-4f4b-b374-43657e38b827", "value": "\u8bf7\u8f93\u5165QQ\u53f7\u7801\u6216\u624b\u673a\u6216\u90ae\u7bb1", "using": "accessibility id"}
+[2018-07-29 11:45:59,078] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 11:46:00,079] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/10e74dfb-cdaf-4f4b-b374-43657e38b827/element {"sessionId": "10e74dfb-cdaf-4f4b-b374-43657e38b827", "value": "\u8bf7\u8f93\u5165QQ\u53f7\u7801\u6216\u624b\u673a\u6216\u90ae\u7bb1", "using": "accessibility id"}
+[2018-07-29 11:46:01,577] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 11:46:02,577] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/10e74dfb-cdaf-4f4b-b374-43657e38b827/element {"sessionId": "10e74dfb-cdaf-4f4b-b374-43657e38b827", "value": "\u8bf7\u8f93\u5165QQ\u53f7\u7801\u6216\u624b\u673a\u6216\u90ae\u7bb1", "using": "accessibility id"}
+[2018-07-29 11:46:02,655] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 11:46:03,655] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/10e74dfb-cdaf-4f4b-b374-43657e38b827/element {"sessionId": "10e74dfb-cdaf-4f4b-b374-43657e38b827", "value": "\u8bf7\u8f93\u5165QQ\u53f7\u7801\u6216\u624b\u673a\u6216\u90ae\u7bb1", "using": "accessibility id"}
+[2018-07-29 11:46:04,050] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 11:46:05,050] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/10e74dfb-cdaf-4f4b-b374-43657e38b827/element {"sessionId": "10e74dfb-cdaf-4f4b-b374-43657e38b827", "value": "\u8bf7\u8f93\u5165QQ\u53f7\u7801\u6216\u624b\u673a\u6216\u90ae\u7bb1", "using": "accessibility id"}
+[2018-07-29 11:46:05,424] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 11:46:06,425] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/10e74dfb-cdaf-4f4b-b374-43657e38b827/element {"sessionId": "10e74dfb-cdaf-4f4b-b374-43657e38b827", "value": "\u8bf7\u8f93\u5165QQ\u53f7\u7801\u6216\u624b\u673a\u6216\u90ae\u7bb1", "using": "accessibility id"}
+[2018-07-29 11:46:07,004] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 11:46:08,007] [DEBUG] [HTMLTestAppRunner.py:_generate_report:751] []
+[2018-07-29 11:59:55,616] [DEBUG] [appController.py:kill_server:46] 执行[KiLL SERVER]操作:成功: 已终止 PID 10460 (属于 PID 13856 子进程)的进程。
+[2018-07-29 11:59:55,699] [DEBUG] [appController.py:kill_server:47] 重启ADB服务！
+[2018-07-29 11:59:55,699] [DEBUG] [appController.py:start_server:66] 启动服务的命令：appium -a 127.0.0.1 -p 4723 -U emulator-5554 -g E:\App_UI\log\雷电模拟器.log
+[2018-07-29 11:59:55,804] [DEBUG] [appController.py:test_sever:80] 端口：【4723】 启动失败  5秒后重试
+[2018-07-29 12:00:00,919] [DEBUG] [appController.py:test_sever:77] 端口：【4723】 启动成功
+[2018-07-29 12:00:00,945] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}, "desiredCapabilities": {"appPackage": "com.tencent.mobileqq", "deviceName": "emulator-5554", "udid": "emulator-5554", "unicodeKeyboard": true, "platformVersion": "5.1.1", "appActivity": "com.tencent.mobileqq.activity.SplashActivity", "port": 4723, "noReset": false, "platformName": "Android", "resetKeyboard": true, "name": "\u96f7\u7535\u6a21\u62df\u5668", "ip": "127.0.0.1"}}
+[2018-07-29 12:00:09,312] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 12:00:09,346] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/a502ce6f-c7ac-4007-90b1-b819d91574da/element {"value": "\u8bf7\u8f93\u5165QQ\u53f7\u7801\u6216\u624b\u673a\u6216\u90ae\u7bb1", "sessionId": "a502ce6f-c7ac-4007-90b1-b819d91574da", "using": "accessibility id"}
+[2018-07-29 12:00:12,149] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 12:00:13,150] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/a502ce6f-c7ac-4007-90b1-b819d91574da/element {"value": "\u8bf7\u8f93\u5165QQ\u53f7\u7801\u6216\u624b\u673a\u6216\u90ae\u7bb1", "sessionId": "a502ce6f-c7ac-4007-90b1-b819d91574da", "using": "accessibility id"}
+[2018-07-29 12:00:13,229] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 12:00:14,229] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/a502ce6f-c7ac-4007-90b1-b819d91574da/element {"value": "\u8bf7\u8f93\u5165QQ\u53f7\u7801\u6216\u624b\u673a\u6216\u90ae\u7bb1", "sessionId": "a502ce6f-c7ac-4007-90b1-b819d91574da", "using": "accessibility id"}
+[2018-07-29 12:00:14,631] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 12:00:15,632] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/a502ce6f-c7ac-4007-90b1-b819d91574da/element {"value": "\u8bf7\u8f93\u5165QQ\u53f7\u7801\u6216\u624b\u673a\u6216\u90ae\u7bb1", "sessionId": "a502ce6f-c7ac-4007-90b1-b819d91574da", "using": "accessibility id"}
+[2018-07-29 12:00:15,867] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 12:00:16,867] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/a502ce6f-c7ac-4007-90b1-b819d91574da/element {"value": "\u8bf7\u8f93\u5165QQ\u53f7\u7801\u6216\u624b\u673a\u6216\u90ae\u7bb1", "sessionId": "a502ce6f-c7ac-4007-90b1-b819d91574da", "using": "accessibility id"}
+[2018-07-29 12:00:17,156] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 12:11:55,336] [DEBUG] [appController.py:kill_server:46] 执行[KiLL SERVER]操作:成功: 已终止 PID 14524 (属于 PID 11796 子进程)的进程。
+[2018-07-29 12:11:55,419] [DEBUG] [appController.py:kill_server:47] 重启ADB服务！
+[2018-07-29 12:11:55,420] [DEBUG] [appController.py:start_server:66] 启动服务的命令：appium -a 127.0.0.1 -p 4723 -U emulator-5554 -g E:\App_UI\log\雷电模拟器.log
+[2018-07-29 12:11:55,522] [DEBUG] [appController.py:test_sever:80] 端口：【4723】 启动失败  5秒后重试
+[2018-07-29 12:12:00,655] [DEBUG] [appController.py:test_sever:77] 端口：【4723】 启动成功
+[2018-07-29 12:12:00,671] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session {"desiredCapabilities": {"unicodeKeyboard": true, "appActivity": "com.tencent.mobileqq.activity.SplashActivity", "name": "\u96f7\u7535\u6a21\u62df\u5668", "ip": "127.0.0.1", "port": 4723, "resetKeyboard": true, "platformName": "Android", "noReset": false, "appPackage": "com.tencent.mobileqq", "deviceName": "emulator-5554", "platformVersion": "5.1.1", "udid": "emulator-5554"}, "capabilities": {"firstMatch": [{}], "alwaysMatch": {"platformName": "Android"}}}
+[2018-07-29 12:12:09,087] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 12:12:09,108] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/55247479-6b2d-41a4-bdd5-a79cef2e9d6b/element {"sessionId": "55247479-6b2d-41a4-bdd5-a79cef2e9d6b", "using": "accessibility id", "value": "\u8bf7\u8f93\u5165QQ\u53f7\u7801\u6216\u624b\u673a\u6216\u90ae\u7bb1"}
+[2018-07-29 12:12:09,147] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 12:12:10,149] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/55247479-6b2d-41a4-bdd5-a79cef2e9d6b/element {"sessionId": "55247479-6b2d-41a4-bdd5-a79cef2e9d6b", "using": "accessibility id", "value": "\u8bf7\u8f93\u5165QQ\u53f7\u7801\u6216\u624b\u673a\u6216\u90ae\u7bb1"}
+[2018-07-29 12:12:11,847] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 12:12:12,847] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/55247479-6b2d-41a4-bdd5-a79cef2e9d6b/element {"sessionId": "55247479-6b2d-41a4-bdd5-a79cef2e9d6b", "using": "accessibility id", "value": "\u8bf7\u8f93\u5165QQ\u53f7\u7801\u6216\u624b\u673a\u6216\u90ae\u7bb1"}
+[2018-07-29 12:12:12,931] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 12:12:13,932] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/55247479-6b2d-41a4-bdd5-a79cef2e9d6b/element {"sessionId": "55247479-6b2d-41a4-bdd5-a79cef2e9d6b", "using": "accessibility id", "value": "\u8bf7\u8f93\u5165QQ\u53f7\u7801\u6216\u624b\u673a\u6216\u90ae\u7bb1"}
+[2018-07-29 12:12:13,963] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 12:12:14,963] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/55247479-6b2d-41a4-bdd5-a79cef2e9d6b/element {"sessionId": "55247479-6b2d-41a4-bdd5-a79cef2e9d6b", "using": "accessibility id", "value": "\u8bf7\u8f93\u5165QQ\u53f7\u7801\u6216\u624b\u673a\u6216\u90ae\u7bb1"}
+[2018-07-29 12:12:14,999] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 12:12:16,000] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/55247479-6b2d-41a4-bdd5-a79cef2e9d6b/element {"sessionId": "55247479-6b2d-41a4-bdd5-a79cef2e9d6b", "using": "accessibility id", "value": "\u8bf7\u8f93\u5165QQ\u53f7\u7801\u6216\u624b\u673a\u6216\u90ae\u7bb1"}
+[2018-07-29 12:12:16,031] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 12:12:17,031] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/55247479-6b2d-41a4-bdd5-a79cef2e9d6b/element {"sessionId": "55247479-6b2d-41a4-bdd5-a79cef2e9d6b", "using": "accessibility id", "value": "\u8bf7\u8f93\u5165QQ\u53f7\u7801\u6216\u624b\u673a\u6216\u90ae\u7bb1"}
+[2018-07-29 12:12:17,061] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 12:14:20,210] [DEBUG] [appController.py:kill_server:46] 执行[KiLL SERVER]操作:成功: 已终止 PID 15788 (属于 PID 21140 子进程)的进程。
+[2018-07-29 12:14:20,292] [DEBUG] [appController.py:kill_server:47] 重启ADB服务！
+[2018-07-29 12:14:20,292] [DEBUG] [appController.py:start_server:66] 启动服务的命令：appium -a 127.0.0.1 -p 4723 -U emulator-5554 -g E:\App_UI\log\雷电模拟器.log
+[2018-07-29 12:14:20,395] [DEBUG] [appController.py:test_sever:80] 端口：【4723】 启动失败  5秒后重试
+[2018-07-29 12:14:25,510] [DEBUG] [appController.py:test_sever:77] 端口：【4723】 启动成功
+[2018-07-29 12:14:25,516] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"alwaysMatch": {"platformName": "Android"}, "firstMatch": [{}]}, "desiredCapabilities": {"noReset": false, "port": 4723, "appPackage": "com.tencent.mobileqq", "resetKeyboard": true, "ip": "127.0.0.1", "udid": "emulator-5554", "platformName": "Android", "appActivity": "com.tencent.mobileqq.activity.SplashActivity", "name": "\u96f7\u7535\u6a21\u62df\u5668", "platformVersion": "5.1.1", "deviceName": "emulator-5554", "unicodeKeyboard": true}}
+[2018-07-29 12:14:33,778] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 12:14:33,792] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/1ee7987d-e3e7-4000-8394-e6bec6e1cdb7/element {"value": "\u8bf7\u8f93\u5165QQ\u53f7\u7801\u6216\u624b\u673a\u6216\u90ae\u7bb1", "sessionId": "1ee7987d-e3e7-4000-8394-e6bec6e1cdb7", "using": "accessibility id"}
+[2018-07-29 12:14:34,166] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 12:14:35,168] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/1ee7987d-e3e7-4000-8394-e6bec6e1cdb7/element {"value": "\u8bf7\u8f93\u5165QQ\u53f7\u7801\u6216\u624b\u673a\u6216\u90ae\u7bb1", "sessionId": "1ee7987d-e3e7-4000-8394-e6bec6e1cdb7", "using": "accessibility id"}
+[2018-07-29 12:14:36,672] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 12:14:37,673] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/1ee7987d-e3e7-4000-8394-e6bec6e1cdb7/element {"value": "\u8bf7\u8f93\u5165QQ\u53f7\u7801\u6216\u624b\u673a\u6216\u90ae\u7bb1", "sessionId": "1ee7987d-e3e7-4000-8394-e6bec6e1cdb7", "using": "accessibility id"}
+[2018-07-29 12:14:37,720] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 12:14:38,720] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/1ee7987d-e3e7-4000-8394-e6bec6e1cdb7/element {"value": "\u8bf7\u8f93\u5165QQ\u53f7\u7801\u6216\u624b\u673a\u6216\u90ae\u7bb1", "sessionId": "1ee7987d-e3e7-4000-8394-e6bec6e1cdb7", "using": "accessibility id"}
+[2018-07-29 12:14:38,959] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 12:14:39,960] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/1ee7987d-e3e7-4000-8394-e6bec6e1cdb7/element {"value": "\u8bf7\u8f93\u5165QQ\u53f7\u7801\u6216\u624b\u673a\u6216\u90ae\u7bb1", "sessionId": "1ee7987d-e3e7-4000-8394-e6bec6e1cdb7", "using": "accessibility id"}
+[2018-07-29 12:14:40,340] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 12:14:41,342] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/1ee7987d-e3e7-4000-8394-e6bec6e1cdb7/element {"value": "\u8bf7\u8f93\u5165QQ\u53f7\u7801\u6216\u624b\u673a\u6216\u90ae\u7bb1", "sessionId": "1ee7987d-e3e7-4000-8394-e6bec6e1cdb7", "using": "accessibility id"}
+[2018-07-29 12:14:41,439] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 12:14:42,443] [DEBUG] [HTMLTestAppRunner.py:_generate_report:751] []
+[2018-07-29 12:18:21,124] [DEBUG] [appController.py:kill_server:46] 执行[KiLL SERVER]操作:成功: 已终止 PID 12672 (属于 PID 12640 子进程)的进程。
+[2018-07-29 12:18:21,202] [DEBUG] [appController.py:kill_server:47] 重启ADB服务！
+[2018-07-29 12:18:21,203] [DEBUG] [appController.py:start_server:66] 启动服务的命令：appium -a 127.0.0.1 -p 4723 -U emulator-5554 -g E:\App_UI\log\雷电模拟器.log
+[2018-07-29 12:18:21,324] [DEBUG] [appController.py:test_sever:80] 端口：【4723】 启动失败  5秒后重试
+[2018-07-29 12:18:26,458] [DEBUG] [appController.py:test_sever:77] 端口：【4723】 启动成功
+[2018-07-29 12:18:26,474] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"alwaysMatch": {"platformName": "Android"}, "firstMatch": [{}]}, "desiredCapabilities": {"appActivity": "com.tencent.mobileqq.activity.SplashActivity", "ip": "127.0.0.1", "unicodeKeyboard": true, "platformName": "Android", "platformVersion": "5.1.1", "resetKeyboard": true, "name": "\u96f7\u7535\u6a21\u62df\u5668", "deviceName": "emulator-5554", "appPackage": "com.tencent.mobileqq", "udid": "emulator-5554", "port": 4723, "noReset": false}}
+[2018-07-29 12:18:34,842] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 12:18:34,864] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/c8bcff76-1b40-4d7e-af49-fd96d033f6dc/element {"value": "\u8bf7\u8f93\u5165QQ\u53f7\u7801\u6216\u624b\u673a\u6216\u90ae\u7bb1", "using": "accessibility id", "sessionId": "c8bcff76-1b40-4d7e-af49-fd96d033f6dc"}
+[2018-07-29 12:18:35,883] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 12:18:36,884] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/c8bcff76-1b40-4d7e-af49-fd96d033f6dc/element {"value": "\u8bf7\u8f93\u5165QQ\u53f7\u7801\u6216\u624b\u673a\u6216\u90ae\u7bb1", "using": "accessibility id", "sessionId": "c8bcff76-1b40-4d7e-af49-fd96d033f6dc"}
+[2018-07-29 12:18:37,830] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 12:18:38,830] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/c8bcff76-1b40-4d7e-af49-fd96d033f6dc/element {"value": "\u8bf7\u8f93\u5165QQ\u53f7\u7801\u6216\u624b\u673a\u6216\u90ae\u7bb1", "using": "accessibility id", "sessionId": "c8bcff76-1b40-4d7e-af49-fd96d033f6dc"}
+[2018-07-29 12:18:38,915] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 12:18:39,916] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/c8bcff76-1b40-4d7e-af49-fd96d033f6dc/element {"value": "\u8bf7\u8f93\u5165QQ\u53f7\u7801\u6216\u624b\u673a\u6216\u90ae\u7bb1", "using": "accessibility id", "sessionId": "c8bcff76-1b40-4d7e-af49-fd96d033f6dc"}
+[2018-07-29 12:18:40,507] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 12:18:41,508] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/c8bcff76-1b40-4d7e-af49-fd96d033f6dc/element {"value": "\u8bf7\u8f93\u5165QQ\u53f7\u7801\u6216\u624b\u673a\u6216\u90ae\u7bb1", "using": "accessibility id", "sessionId": "c8bcff76-1b40-4d7e-af49-fd96d033f6dc"}
+[2018-07-29 12:18:41,790] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 12:18:42,790] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/c8bcff76-1b40-4d7e-af49-fd96d033f6dc/element {"value": "\u8bf7\u8f93\u5165QQ\u53f7\u7801\u6216\u624b\u673a\u6216\u90ae\u7bb1", "using": "accessibility id", "sessionId": "c8bcff76-1b40-4d7e-af49-fd96d033f6dc"}
+[2018-07-29 12:18:42,899] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 12:18:43,901] [DEBUG] [HTMLTestAppRunner.py:_generate_report:751] []
+[2018-07-29 12:31:17,448] [DEBUG] [appController.py:kill_server:46] 执行[KiLL SERVER]操作:成功: 已终止 PID 3636 (属于 PID 12412 子进程)的进程。
+[2018-07-29 12:31:17,535] [DEBUG] [appController.py:kill_server:47] 重启ADB服务！
+[2018-07-29 12:31:17,535] [DEBUG] [appController.py:start_server:66] 启动服务的命令：appium -a 127.0.0.1 -p 4723 -U emulator-5554 -g E:\App_UI\log\雷电模拟器.log
+[2018-07-29 12:31:17,661] [DEBUG] [appController.py:test_sever:80] 端口：【4723】 启动失败  5秒后重试
+[2018-07-29 12:31:22,792] [DEBUG] [appController.py:test_sever:77] 端口：【4723】 启动成功
+[2018-07-29 12:31:22,809] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session {"capabilities": {"alwaysMatch": {"platformName": "Android"}, "firstMatch": [{}]}, "desiredCapabilities": {"noReset": false, "resetKeyboard": true, "deviceName": "emulator-5554", "name": "\u96f7\u7535\u6a21\u62df\u5668", "platformName": "Android", "appPackage": "com.tencent.mobileqq", "port": 4723, "platformVersion": "5.1.1", "appActivity": "com.tencent.mobileqq.activity.SplashActivity", "ip": "127.0.0.1", "unicodeKeyboard": true, "udid": "emulator-5554"}}
+[2018-07-29 12:31:31,019] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 12:31:31,041] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/c57a174b-39cb-415d-b031-d5e09a987356/element {"sessionId": "c57a174b-39cb-415d-b031-d5e09a987356", "value": "\u8bf7\u8f93\u5165QQ\u53f7\u7801\u6216\u624b\u673a\u6216\u90ae\u7bb1", "using": "accessibility id"}
+[2018-07-29 12:31:31,113] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 12:31:32,114] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/c57a174b-39cb-415d-b031-d5e09a987356/element {"sessionId": "c57a174b-39cb-415d-b031-d5e09a987356", "value": "\u8bf7\u8f93\u5165QQ\u53f7\u7801\u6216\u624b\u673a\u6216\u90ae\u7bb1", "using": "accessibility id"}
+[2018-07-29 12:31:34,014] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 12:31:35,015] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/c57a174b-39cb-415d-b031-d5e09a987356/element {"sessionId": "c57a174b-39cb-415d-b031-d5e09a987356", "value": "\u8bf7\u8f93\u5165QQ\u53f7\u7801\u6216\u624b\u673a\u6216\u90ae\u7bb1", "using": "accessibility id"}
+[2018-07-29 12:31:35,863] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 12:31:36,864] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/c57a174b-39cb-415d-b031-d5e09a987356/element {"sessionId": "c57a174b-39cb-415d-b031-d5e09a987356", "value": "\u8bf7\u8f93\u5165QQ\u53f7\u7801\u6216\u624b\u673a\u6216\u90ae\u7bb1", "using": "accessibility id"}
+[2018-07-29 12:31:37,194] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 12:31:38,194] [DEBUG] [remote_connection.py:_request:480] POST http://127.0.0.1:4723/wd/hub/session/c57a174b-39cb-415d-b031-d5e09a987356/element {"sessionId": "c57a174b-39cb-415d-b031-d5e09a987356", "value": "\u8bf7\u8f93\u5165QQ\u53f7\u7801\u6216\u624b\u673a\u6216\u90ae\u7bb1", "using": "accessibility id"}
+[2018-07-29 12:31:38,984] [DEBUG] [remote_connection.py:_request:567] Finished Request
+[2018-07-29 12:31:39,987] [DEBUG] [HTMLTestAppRunner.py:_generate_report:751] []
